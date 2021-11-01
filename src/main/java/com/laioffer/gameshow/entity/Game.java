@@ -1,7 +1,7 @@
 package com.laioffer.gameshow.entity;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
+// Jiushiwan
 public class Game {
     @JsonProperty("name")
     private String name;
