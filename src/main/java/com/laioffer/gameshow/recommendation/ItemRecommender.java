@@ -16,7 +16,7 @@ public class ItemRecommender {
     private static final int DEFAULT_GAME_LIMIT = 3;
     private static final int DEFAULT_PER_GAME_RECOMMENDATION_LIMIT = 10;
     private static final int DEFAULT_TOTAL_RECOMMENDATION_LIMIT = 20;
-
+    // new commit
     // Return a list of Item objects for the given type. Types are one of [Stream, Video, Clip]. Add items are related to the top games provided in the argument
     private List<Item> recommendByTopGames(ItemType type, List<Game> topGames) throws RecommendationException {
         List<Item> recommendedItems = new ArrayList<>();
